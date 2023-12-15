@@ -5,9 +5,9 @@ const app = express();
 const PORT = 3000;
 
 const employees = [
-  { id: 1, name: 'John Doe', age: 30 },
-  { id: 2, name: 'Jane Doe', age: 25 },
-  { id: 3, name: 'Bob Smith', age: 35 }
+  { id: 1, name: 'Ilaha Jafarova', age: 20 },
+  { id: 2, name: 'Samid Quliyev', age: 50 },
+  { id: 3, name: 'Abas Sultanli', age: 25 }
 ];
 
 app.get('/employees', (req, res) => {
